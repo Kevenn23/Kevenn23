@@ -10,13 +10,37 @@ body{
 nav {
     width: 100%;
     background-color: #A0B1C7;
-    box-shadow: 0 0 25px 0 black;
+    box-shadow: 0 0 15px 0 black;
     height: 30px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     font-size: 1.2rem;
 }
+footer{
+    background: #2E3545;
+    color: #D0EBFD;
+    height: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.active a{
+    color: black;
+    font-size: 1.2em;
+}
+
+ a:hover{
+    color: black;
+    transition: all 0.35s ease-in-out;
+    font-size: 1.2em;
+}
+
+
 .head-nav{
     display: flex;
     flex-direction: column;
@@ -123,6 +147,7 @@ header{
     /* .Main-article article{
         margin-bottom: 3em;
     } */
+
 
 
 @media screen and (max-width: 600px) { 
